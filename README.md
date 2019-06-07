@@ -34,11 +34,13 @@ Two differences need to be addressed before dropping your PO 400 modules into a 
 1. Power headers are not compatible
 2. Modules are not mountable (too small, wrong hole spacing)
 
-I've cheated on #1 (as you will see). For #2 I've attached my design files for laser cutting. These designs are based on the Teenage Engineering [details](https://teenage.engineering/_img/5c40d68837f9710004314dd3_original.pdf) and a lot of measuring. Initial test work great. I cut 3 mm acrylic and realized my Eurorack skiff machine screws are too short to bolt the modules down. Keep this in mind if you're not doing thin wood or metal faceplates.
+I've cheated on #1 (as you will see). For #2 I've uploaded my design files for laser cutting. These designs are based on the Teenage Engineering [details](https://teenage.engineering/_img/5c40d68837f9710004314dd3_original.pdf) and a lot of measuring. Initial test work great. I cut 3 mm acrylic and realized my Eurorack skiff machine screws are too short to bolt the modules down. Keep this in mind if you're not doing thin wood or metal faceplates.
 
 #### Power Conversion
 
-I hardwired a section of the PO 400 bus to my Eurorack power bus. I wouldn't recommend this, we should come up with a designed conversion plug.
+I hardwired a section of the PO 400 bus to my Eurorack power bus. The PO modules are pretty shallow, there is still room to place them in a Make Noise skiff with the bus added as shown.  
+
+I wouldn't recommend cutting the bus as I did or hard wiring it to your Eurorack's bus. We should design a converter modules, pull requests are welcome!
 
 ![](bus_mod.jpg)
 ![](installed_bus.jpg)
